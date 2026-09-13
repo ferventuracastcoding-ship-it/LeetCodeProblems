@@ -1,7 +1,10 @@
+// function solveSudoku(board)
 function solveSudoku(board) {
-
+// function isValid(row,col, num)
     function isValid(row, col, num) {
-
+// for(let i = 0; i < 9; i++) {
+        // if (board[row][i] === num){ return false;}
+//}
         for (let i = 0; i < 9; i++) {
 
             if (board[row][i] === num) {
